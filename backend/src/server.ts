@@ -2,7 +2,6 @@ import app from "./app";
 import "dotenv/config";
 import env from "./util/validateEnv";
 import mongoose from "mongoose";
-import express from "express";
 
 const port = env.PORT;
 const mongoConnectionString = env.MONGO_CONNECTION_STRING;
